@@ -1,3 +1,5 @@
+https://doi.org/10.5281/zenodo.8475
+
 # Project Overview
 
 **S2-Net** is a unified spectral–spatial synergistic framework designed for fine-grained classification of benign pigmented skin neoplasms using clinical photographs. This project addresses the critical research gap in deep learning-based differentiation of common benign lesions—specifically intradermal nevus, junctional nevus, compound nevus, and seborrheic keratosis—from routine clinical images rather than specialized dermoscopic equipment.
