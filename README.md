@@ -1,0 +1,60 @@
+# Project Overview
+
+**S2-Net** is a unified spectral–spatial synergistic framework designed for fine-grained classification of benign pigmented skin neoplasms using clinical photographs. This project addresses the critical research gap in deep learning-based differentiation of common benign lesions—specifically intradermal nevus, junctional nevus, compound nevus, and seborrheic keratosis—from routine clinical images rather than specialized dermoscopic equipment.
+
+# Main Features
+
+- **Four-Class Classification**: Accurate discrimination of Intradermal, Junctional, Compound Nevi, and Seborrheic Keratosis
+
+- **Clinical Photography Support**: Operates on standard smartphone/camera images without requiring dermoscopy devices
+
+- **SSI + SemanticMix Synergy**: Transforms SSI's spectral artifacts into robust domain-bridging capability
+
+- **Interpretability**: Integrated Grad-CAM and Integrated Gradients analysis for transparent decision-making
+
+# Environment Requirements
+
+Check the `requirements.txt` file or run the following command in your terminal:
+```bash
+pip install -r requirements.txt
+```
+
+# Quick Start Guide
+
+## 1. Train
+
+Ensure your directory structure follows this format.
+
+```bash
+ISIC-pifujing                  # selected ISIC images (derm imgs, only for train)
+├── ISIC-images-fuhe/          # compound
+├── ISIC-images-jiaojie/       # junctional
+├── ISIC-images-pinei/         # dermal
+└── ISIC-images-zhiyi/         # seborrheic
+
+pub_json                       # bbox generated from Grounding DINO
+├── fuhe/                      # compound
+├── jiaojie/                   # junctional
+├── pinei/                     # dermal
+└── zhiyi/                     # seborrheic
+
+cropped_lesions_padded         # clinical images
+├── test/         
+├── train/
+└── valid/
+
+priv_json
+├── test/         
+├── train/
+└── valid/
+
+related_code/
+├── utils/                     
+├── models/                    
+└── priv+pub_train.py
+```
+
+# 2. Inference
+
+See details in `Inference/inference.ipynb`.
+
