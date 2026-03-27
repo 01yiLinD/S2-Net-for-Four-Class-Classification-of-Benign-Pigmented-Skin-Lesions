@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8475.svg)](https://doi.org/10.5281/zenodo.8475)
+[![DOI](https://zenodo.org/badge/1192544767.svg)](https://doi.org/10.5281/zenodo.19249120)
 
 # Project Overview
 
