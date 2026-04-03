@@ -58,5 +58,12 @@ related_code/                  # training
 
 # 2. Inference
 
-See details in `Inference/inference.ipynb`.
+You can run the model for skin lesion classification and Grad-CAM visualization using the following methods:
+# 2.1 Local Inference
+For local testing or batch processing, please refer to the detailed guide in the Jupyter Notebook: `Inference/inference.ipynb`
 
+# 2.2 Online Demo (Hugging Face Spaces)
+We provide an interactive web application hosted on Hugging Face Spaces. You can perform real-time image analysis directly in your browser without setting up a local environment.
+
+- **Interactive Website:** [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Doruimon/S2-Net)
+- **Features**: Supports single image analysis, batch ZIP uploads, and interactive Grad-CAM interpretability.
