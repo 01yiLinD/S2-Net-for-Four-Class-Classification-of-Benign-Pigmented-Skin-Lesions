@@ -72,6 +72,8 @@ We provide an interactive web application hosted on Hugging Face Spaces. You can
 
 <img width="3278" height="1633" alt="Pasted image 20260403175658" src="https://github.com/user-attachments/assets/0a0508b6-99ee-4581-873a-1ddfeab7736b" />
 
+
+
 **batch prediction:**
 
 <img width="3259" height="1717" alt="Pasted image 20260403175730" src="https://github.com/user-attachments/assets/ff5b7199-7d85-4992-a70c-42c4655b371c" />
